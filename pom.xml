@@ -23,7 +23,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java6.home>${env.JAVA6_HOME}</java6.home>
-    <bootclasspath.java6>${java6.home}/lib/rt.jar;${java6.home}/lib/jce.jar</bootclasspath.java6>
+    <bootclasspath.java6>${java6.home}/lib/rt.jar;${java6.home}/lib/jce.jar;${java6.home}/lib/jsse.jar</bootclasspath.java6>
     <bootclasspath.compile>${bootclasspath.java6}</bootclasspath.compile>
     <bootclasspath.testCompile>${bootclasspath.java6}</bootclasspath.testCompile>
   </properties>

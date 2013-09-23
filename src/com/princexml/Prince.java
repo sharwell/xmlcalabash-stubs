@@ -4,21 +4,67 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * The main Prince class.
+ *
+ * @see <a href="http://www.princexml.com/doc/8.1/java/api/com/princexml/Prince.html">
+ * Class Prince</a>
+ */
 public class Prince {
 
+    /**
+     * Constructor for Prince.
+     *
+     * @param exePath The path of the Prince executable. (For example, this may
+     * be {@code C:\Program Files\Prince\engine\bin\prince.exe} on Windows or
+     * {@code /usr/bin/prince} on Linux).
+     */
     public Prince(String exePath) {
         throw new UnsupportedOperationException();
     }
 
+    /**
+     * Constructor for Prince.
+     *
+     * @param exePath The path of the Prince executable. (For example, this may
+     * be {@code C:\Program Files\Prince\engine\bin\prince.exe} on Windows or
+     * {@code /usr/bin/prince} on Linux).
+     * @param events An instance of the {@link PrinceEvents} interface that will
+     * receive error/warning messages returned from Prince.
+     */
     public Prince(String exePath, PrinceEvents events) {
         throw new UnsupportedOperationException();
     }
 
+    /**
+     * Add a CSS style sheet that will be applied to each document.
+     *
+     * @param cssPath The filename of the CSS style sheet.
+     */
+    public void addStyleSheet(String cssPath) {
+        throw new UnsupportedOperationException();
+    }
+
+    /**
+     * Clear all of the CSS style sheets.
+     */
+    public void clearStyleSheets() {
+        throw new UnsupportedOperationException();
+    }
+
+    /**
+     * Add a JavaScript script that will be executed before conversion.
+     *
+     * @param jsPath The filename of the JavaScript script.
+     */
     public void addScript(String jsPath) {
         throw new UnsupportedOperationException();
     }
 
-    public void addStyleSheet(String cssPath) {
+    /**
+     * Clear all of the JavaScript scripts.
+     */
+    public void clearScripts() {
         throw new UnsupportedOperationException();
     }
 

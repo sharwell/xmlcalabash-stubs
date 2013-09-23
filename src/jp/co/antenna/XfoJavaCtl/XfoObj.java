@@ -3,6 +3,12 @@ package jp.co.antenna.XfoJavaCtl;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * {@link XfoObj} Class is the object class of AH Formatter.
+ *
+ * @see <a href="http://www.antennahouse.com/product/ahf60/docs/javadoc/jp/co/antenna/XfoJavaCtl/XfoObj.html">
+ * Class XfoObj</a>
+ */
 public class XfoObj {
 
     public static final int S_EST_NONE = 0;
@@ -75,6 +81,10 @@ public class XfoObj {
     public static final int S_SVG_VERSION_11 = 0;
     public static final int S_SVG_VERSION_BASIC = 1;
     public static final int S_SVG_VERSION_TINY = 2;
+
+    public void setFormatPageListener(XfoFormatPageListener listener) {
+        throw new UnsupportedOperationException();
+    }
 
     public void setFormatterType(int formatterType) throws XfoException {
         throw new UnsupportedOperationException();
