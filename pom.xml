@@ -52,13 +52,13 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/ndw/xmlcalabash1/issues</url>
+    <url>https://github.com/sharwell/xmlcalabash-stubs/issues</url>
   </issueManagement>
 
   <scm>
-    <url>https://github.com/ndw/xmlcalabash1.git</url>
-    <connection>scm:git:git://github.com/ndw/xmlcalabash1.git</connection>
-    <developerConnection>scm:git:git@github.com:ndw/xmlcalabash1.git</developerConnection>
+    <url>https://github.com/sharwell/xmlcalabash-stubs.git</url>
+    <connection>scm:git:git://github.com/sharwell/xmlcalabash-stubs.git</connection>
+    <developerConnection>scm:git:git@github.com:sharwell/xmlcalabash-stubs.git</developerConnection>
   </scm>
 
   <dependencies>
