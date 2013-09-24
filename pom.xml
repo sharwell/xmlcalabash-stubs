@@ -6,9 +6,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.xmlcalabash</groupId>
+  <groupId>com.tunnelvisionlabs</groupId>
   <artifactId>xmlcalabash-extension-stubs</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>XML Calabash Extension Stubs</name>
   <description>This artifact defines API stubs for compiling extension classes.</description>
   <url>http://xmlcalabash.com/</url>
